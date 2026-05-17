@@ -1,7 +1,6 @@
-// components/sections/Skills.tsx
-import Card from "@/components/Card";
-import SkillBadge from "@/components/SkillBadge";
-import { primarySkills, secondarySkills } from "@/data/skills";
+import Card from "../Card";
+import SkillBadge from "../SkillBadge";
+import { primarySkills, secondarySkills } from "../../data/Skills";
 
 export default function Skills() {
   return (

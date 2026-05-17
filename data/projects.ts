@@ -26,6 +26,33 @@ export const squarespaceProjects: Project[] = [
   //   image: "/projects/sq-business.jpg",
   //   liveUrl: "https://your-live-site.com",
   // },
+  {
+    title: "Bariatric Psychological Evaluations",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/bariatric-site.png",
+    liveUrl: "https://soybean-tuna-853t.squarespace.com/bariatric-psychological-evaluations",
+  },
+
+  {
+    title: "Bariatric Psychological Evaluations",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/bariatric-site.png",
+    liveUrl: "https://soybean-tuna-853t.squarespace.com/bariatric-psychological-evaluations",
+  },
+
+  {
+    title: "Bariatric Psychological Evaluations",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/bariatric-site.png",
+    liveUrl: "https://soybean-tuna-853t.squarespace.com/bariatric-psychological-evaluations",
+  },
+
+  {
+    title: "Bariatric Psychological Evaluations",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/rental.png",
+    liveUrl: "https://www.strixventures.co/",
+  },
 ];
 
 export const wixProjects: Project[] = [
