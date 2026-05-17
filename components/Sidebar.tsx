@@ -43,7 +43,7 @@ export default function Sidebar() {
         {/* Social Icons — replace href with your real links */}
         <div className="mb-8 flex gap-4">
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/md-al-amin-islam-575105317/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -52,7 +52,7 @@ export default function Sidebar() {
             <LinkedInIcon />
           </a>
           <a
-            href="https://wa.me/8801XXXXXXXXX"
+            href="https://wa.me/8801324122820"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="WhatsApp"
@@ -61,7 +61,7 @@ export default function Sidebar() {
             <WhatsAppIcon />
           </a>
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/md-alamin-tech"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
