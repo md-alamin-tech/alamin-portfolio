@@ -1,4 +1,5 @@
-// ─── SKILL TYPE ───────────────────────────────────────────────────────────────
+import React from "react";
+
 export type Skill = {
   label: string;
   icon: string | null;
@@ -7,19 +8,6 @@ export type Skill = {
 
 // ─── PRIMARY SKILLS ───────────────────────────────────────────────────────────
 export const primarySkills: Skill[] = [
-  { label: "JS",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { label: "TS",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
-  { label: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  { label: "Next",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
-  { label: "CSS",   icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  { label: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-  { label: "WP",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg" },
-  { label: "Node",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-];
-
-// ─── SECONDARY SKILLS ─────────────────────────────────────────────────────────
-// Wix and SQ use inline SVG since they are not in devicons
-export const secondarySkills: Skill[] = [
   {
     label: "Wix",
     icon: null,
@@ -40,8 +28,21 @@ export const secondarySkills: Skill[] = [
       </svg>
     ),
   },
-  { label: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",         customIcon: null },
   { label: "C",    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",                 customIcon: null },
   { label: "C++",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", customIcon: null },
   { label: "Git",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",             customIcon: null },
+ 
+  
+  { label: "Figma",icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",         customIcon: null },
+ 
+];
+
+// ─── SECONDARY SKILLS ─────────────────────────────────────────────────────────
+export const secondarySkills: Skill[] = [
+  { label: "HTML",      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",                customIcon: null },
+  { label: "CSS",       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",                  customIcon: null },
+  { label: "Tailwind",  icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",    customIcon: null },
+  { label: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",       customIcon: null },
+  { label: "JS",        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",     customIcon: null },
+  { label: "React",     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",               customIcon: null },
 ];
