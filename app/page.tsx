@@ -1,9 +1,8 @@
-// app/page.tsx
 import Sidebar from "@/components/Sidebar";
 import AboutMe from "@/components/sections/AboutMe";
 import Skills from "@/components/sections/Skills";
 import Services from "@/components/sections/Services";
-import Blog from "@/components/sections/Blog";
+import Experience from "@/components/sections/Experience";
 import Contact from "@/components/sections/Contact";
 import ProjectSection from "@/components/ProjectSection";
 import {
@@ -18,15 +17,13 @@ export default function Home() {
     <main className="min-h-screen bg-[#ecf0f3] font-sans text-[#3c3e41]">
       <div className="mx-auto grid max-w-[1120px] grid-cols-1 gap-14 px-6 py-14 lg:grid-cols-[42%_58%] lg:px-10">
 
-        {/* ── LEFT SIDEBAR ── */}
         <Sidebar />
 
-        {/* ── RIGHT CONTENT ── */}
         <div className="space-y-10">
           <AboutMe />
           <Skills />
           <Services />
-          <Blog />
+          <Experience />
 
           <ProjectSection
             id="projects-frontend"
@@ -34,21 +31,18 @@ export default function Home() {
             projects={frontendProjects}
             emptyMessage="Frontend projects coming soon"
           />
-
           <ProjectSection
             id="projects-squarespace"
             title="Squarespace Projects"
             projects={squarespaceProjects}
             emptyMessage="Squarespace projects coming soon"
           />
-
           <ProjectSection
             id="projects-wix"
             title="Wix Projects"
             projects={wixProjects}
             emptyMessage="Wix projects coming soon"
           />
-
           <ProjectSection
             id="projects-cpp"
             title="C / C++ Projects"
