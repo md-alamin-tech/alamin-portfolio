@@ -20,12 +20,21 @@ export const frontendProjects: Project[] = [
 ];
 
 export const squarespaceProjects: Project[] = [
-  // {
-  //   title: "Squarespace Business Site",
-  //   description: "Clean Squarespace design for a local brand.",
-  //   image: "/projects/sq-business.jpg",
-  //   liveUrl: "https://your-live-site.com",
-  // },
+  
+ {
+    title: "Precious Metals",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Precious -Metals.png",
+    liveUrl: "https://www.prosperitymetals.org/",
+  },
+
+  {
+    title: "Education / Online Certificate Program Website",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Education-Online-Certificate-Program.png",
+    liveUrl: "https://perch-turkey-pxys.squarespace.com/",
+  },
+
   {
     title: "Bariatric Psychological Evaluations",
     description: "A professional Squarespace website for bariatric psychological evaluation services.",
@@ -33,12 +42,47 @@ export const squarespaceProjects: Project[] = [
     liveUrl: "https://soybean-tuna-853t.squarespace.com/bariatric-psychological-evaluations",
   },
 
+  {
+    title: "Pool Barrier Certification",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Pool-Barrier-Certification.png",
+    liveUrl: "https://poolbarriercertification.squarespace.com/home_landing",
+  },
+
+  {
+    title: "Motivational Speaker",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Motivational Speaker.png",
+    liveUrl: "https://www.minameetings.com/",
+  },
+
+  
+  {
+    title: "Mental Health Therapy",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Mental Health Therapy.png",
+    liveUrl: "https://www.aspenshealingarts.org/",
+  },
 
   {
     title: "Rental",
     description: "A professional Squarespace website for bariatric psychological evaluation services.",
     image: "/projects/rental.png",
     liveUrl: "https://www.strixventures.co/",
+  },
+
+  {
+    title: "Therapy",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Therapy.png",
+    liveUrl: "https://www.paramaspacekeeper.com",
+  },
+
+   {
+    title: "Real Estate Investment",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Real-Estate-Investment.png",
+    liveUrl: "https://plane-mandolin-36yj.squarespace.com/",
   },
 ];
 
