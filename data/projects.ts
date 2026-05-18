@@ -21,6 +21,13 @@ export const frontendProjects: Project[] = [
 
 export const squarespaceProjects: Project[] = [
   
+  {
+    title: "Event Promotion / Entertainment Website",
+    description: "A professional Squarespace website for bariatric psychological evaluation services.",
+    image: "/projects/Event Promotion  Entertainment Website.png",
+    liveUrl: "https://www.beehivepresents.com/",
+  },
+
  {
     title: "Precious Metals",
     description: "A professional Squarespace website for bariatric psychological evaluation services.",
