@@ -2,7 +2,6 @@
 
 A modern, responsive personal portfolio website built with **Next.js 16**, **Tailwind CSS**, and **TypeScript**. Features a clean neumorphic design with dynamic project sections, experience timeline, and contact form.
 
-🌐 **Live Site:** [alamin-portfolio-beryl.vercel.app](https://alamin-portfolio-beryl.vercel.app)
 
 ---
 
